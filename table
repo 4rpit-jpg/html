@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <!-- Favicon link (replace 'favicon.ico' with the path to your favicon) -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .specials {
+            margin: 20px 0;
+        }
+        .highlight {
+            font-weight: bold;
+            color: #d9534f;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to The Gourmet Bistro</h1>
+
+    <h2>Menu</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Description</th>
+                <th>Price</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Grilled Salmon</td>
+                <td>Fresh salmon grilled to perfection with a lemon dill sauce.</td>
+                <td>$19.99</td>
+            </tr>
+            <tr>
+                <td>Caesar Salad</td>
+                <td>Crisp romaine lettuce with Caesar dressing, croutons, and parmesan.</td>
+                <td>$12.99</td>
+            </tr>
+            <tr>
+                <td>Chocolate Lava Cake</td>
+                <td>Warm chocolate cake with a gooey center, served with vanilla ice cream.</td>
+                <td>$8.99</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="specials">
+        <h2>Today's Specials</h2>
+        <ul>
+            <li>Steak & Shrimp Combo</li>
+            <li>Spaghetti Carbonara</li>
+            <li>Apple Pie a la Mode</li>
+        </ul>
+    </div>
+
+    <p>Join us for a memorable dining experience! <span class="highlight">Don’t miss out on our daily specials</span> and enjoy a meal prepared with the finest ingredients.</p>
+</body>
+</html>
